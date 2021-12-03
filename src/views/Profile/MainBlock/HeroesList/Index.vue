@@ -3,11 +3,11 @@
     <b-table
       hover
       striped
-      dark
       :items="heroes"
       :fields="fields"
       stacked="sm"
       small
+      class="bg-blue text-white"
     >
       <!-- Contenido -->
       <template v-slot:cell(name)="data">

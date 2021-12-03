@@ -1,7 +1,7 @@
 <template>
   <div class="header-bar">
     <div class="navigation-bar">
-      <b-navbar toggleable="lg" type="dark" variant="dark">
+      <b-navbar toggleable="lg" type="dark" class="bg-blue">
         <b-navbar-brand :to="{ name: 'Home' }">
           <img src="@/assets/img/diablo-iii.svg" alt="D3" width="30" />
           <span class="font-diablo ml-2">{{ title }}</span>
@@ -21,3 +21,8 @@ export default {
   },
 };
 </script>
+
+<style lang="stylus">
+.bg-blue
+  background-color #153954 !important
+</style>

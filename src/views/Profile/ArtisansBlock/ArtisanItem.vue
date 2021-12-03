@@ -1,5 +1,5 @@
 <template>
-  <div class="artisan-item d-flex bg-dark p-3 mb-2 rounded">
+  <div class="artisan-item d-flex bg-blue p-3 mb-2 rounded">
     <!-- Bloque Ícono / Emoji -->
     <div
       class="

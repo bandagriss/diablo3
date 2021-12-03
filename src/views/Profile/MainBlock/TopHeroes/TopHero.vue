@@ -9,7 +9,7 @@
       <!-- Imagen de fondo, según la clase y el género -->
       <div :class="heroClass"></div>
     </div>
-    <div class="p-2 bg-dark">
+    <div class="p-2 bg-blue">
       <!-- Nombre héroe -->
       <!-- Si es hardcore, pintamos el fondo rojo -->
       <h5

@@ -1,7 +1,7 @@
 <template>
   <!-- Clase que determina el color -->
   <div
-    class="text-center bg-dark h-100 pt-3 d3-icon-item"
+    class="text-center bg-blue h-100 pt-3 d3-icon-item"
     :class="itemClassColor"
   >
     <div class="d-flex flex-column justify-content-between h-100">
@@ -11,7 +11,7 @@
         <div>
           <div v-if="item" class="item-image">
             <!-- Nombre del objeto -->
-            <p class="text-muted">{{ item.name }}</p>
+            <p class="text-white">{{ item.name }}</p>
             <!-- Imagen correspondiente al objeto -->
             <img :src="itemUrl" :alt="item.slotName + ' ' + item.name" />
           </div>
